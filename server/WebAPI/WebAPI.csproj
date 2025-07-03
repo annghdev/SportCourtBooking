@@ -16,7 +16,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Bookings\BookingService\BookingService.csproj" />
+    <ProjectReference Include="..\Courts\CourtService\CourtService.csproj" />
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\Media\MediaService\MediaService.csproj" />
+    <ProjectReference Include="..\Notifications\NotificationService\NotificationService.csproj" />
+    <ProjectReference Include="..\Payments\PaymentService\PaymentService.csproj" />
+    <ProjectReference Include="..\Users\UserService\UserService.csproj" />
   </ItemGroup>
 
 </Project>

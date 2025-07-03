@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="SubDomains\Bookings\Constants\" />
+    <Folder Include="SubDomains\Bookings\Repositories\" />
+    <Folder Include="SubDomains\Courts\" />
+    <Folder Include="SubDomains\Users\Entities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cortex.Mediator" Version="1.6.1" />
+  </ItemGroup>
+
 </Project>
