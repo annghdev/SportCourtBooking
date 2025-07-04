@@ -9,13 +9,14 @@
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Commands\" />
+    <Folder Include="Mapping\" />
     <Folder Include="Messages\" />
     <Folder Include="Queries\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Common\Common.csproj" />
-    <ProjectReference Include="..\..\Common\Common\Common.csproj" />
+
   </ItemGroup>
 
 </Project>

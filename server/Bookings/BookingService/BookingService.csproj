@@ -8,12 +8,12 @@
 
   <ItemGroup>
     <Folder Include="Commands\" />
+    <Folder Include="Mapping\" />
     <Folder Include="Queries\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Common\Common.csproj" />
-    <ProjectReference Include="..\..\Common\Common\Common.csproj" />
   </ItemGroup>
 
 </Project>
